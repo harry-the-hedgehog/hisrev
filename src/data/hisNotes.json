@@ -1,19 +1,76 @@
 {
-  "Migration": {
-    "periods": [
-      "Medieval Period",
-      "Early Modern Period",
-      "18th and 19th Century",
-      "Modern Period"
-    ],
-    "aspects": ["reason", "experience", "impact"],
-    "reasons": ["economic", "safety", "actions of authority", "religious"],
-    "experiences": [
-      "relationship with people",
-      "relationship with authority",
-      "working and living condition"
-    ],
-    "migrant groups": [""],
-    "Medieval Period": {}
+  "Exams": {
+    "examBoard": "Edexcel (Pearson)",
+    "upcoming": {
+      "paper1": {
+        "name": "Paper 1: Thematic study and historic environment",
+        "topic": "migration",
+        "time": "morning",
+        "date": "Friday 16 May",
+        "duration": [1, 20]
+      },
+      "paper2": {
+        "name": "Paper 2: Period study & British depth study",
+        "topic": "Elizabeth and Cold War",
+        "time": "morning",
+        "date": "Thursday 06 June",
+        "duration": [1, 50]
+      },
+      "paper3": {
+        "name": "Paper 3: Modern depth study",
+        "topic": "Germany",
+        "time": "Afternoon",
+        "date": "Tuesday 10 June",
+        "duration": [1, 30]
+      }
+    }
+  },
+  "topics": {
+    "migration": {
+      "name": "Migration",
+      "time": [800, "present"],
+      "periods": [
+        "Medieval Period",
+        "Early Modern Period",
+        "18th and 19th Century",
+        "Modern Period"
+      ],
+      "aspects": ["reason", "experience", "impact"],
+      "reasons": ["economic", "safety", "actions of authority", "religious"],
+      "experiences": [
+        "relationship with people",
+        "relationship with authority",
+        "working and living condition"
+      ],
+      "impacts": [
+        "trade and economy",
+        "culture and religion",
+        "government and law"
+      ],
+      "subtopics": {
+        "medievalPeriod": {
+          "name": "medievalPeriod",
+          "time": [800, 1500],
+          "migrant groups": [
+            "Vikings",
+            "Normans",
+            "Jews",
+            "Flemish Weavers",
+            "Lombardy Bankers",
+            "Low Countries",
+            "Hansa Merchants"
+          ]
+        }
+      }
+    },
+    "elizabethanEngland": {
+      "name": "Elizabethan England"
+    },
+    "naziGermany": {
+      "name": "Nazi Germany"
+    },
+    "coldWar": {
+      "name": "Cold War"
+    }
   }
 }
