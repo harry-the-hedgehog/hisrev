@@ -1,0 +1,19 @@
+{
+  "Migration": {
+    "periods": [
+      "Medieval Period",
+      "Early Modern Period",
+      "18th and 19th Century",
+      "Modern Period"
+    ],
+    "aspects": ["reason", "experience", "impact"],
+    "reasons": ["economic", "safety", "actions of authority", "religious"],
+    "experiences": [
+      "relationship with people",
+      "relationship with authority",
+      "working and living condition"
+    ],
+    "migrant groups": [""],
+    "Medieval Period": {}
+  }
+}
